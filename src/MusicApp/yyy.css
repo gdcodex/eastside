@@ -1,0 +1,59 @@
+.second-half{
+    width: 100vw;
+    height: 35vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-half h5{
+  color: rgb(90, 81, 59);
+  /* display: none; */
+   
+}
+.form{
+    /* border: 1px solid plum; */
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.form input, .form span{
+    display: inline-block;
+    padding: 4px 0;
+    border: 1px solid rgb(105, 71, 100);
+}
+.form input{
+    width: 80%;
+    border-radius: 3px;
+    font-style: italic;
+    text-align: center;
+}
+.form input:focus{
+    background-color:rgb(225, 212, 233) ;
+    color: #130a18;
+    font-weight: bold;
+}
+.form span{
+    /* width: 6%; */
+    margin-left: 4px;
+    padding: 1px 5px;
+    height: 88%;
+    border: 0.3px solid gray;
+    border-radius: 2px;
+    cursor: pointer;
+  
+  
+    
+}
+.form span:hover{
+    background-color:rgb(236, 232, 232) ;
+}
+.form span img{
+    width: 20px;
+
+    transform: rotate(-90deg);
+}

@@ -1,0 +1,76 @@
+#nav-ul{
+  /* border: 1px solid rgb(42, 46, 42); */
+  width: 50%;
+  background-color: rgb(236, 245, 236);
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 1.2vw;
+  font-size: 1.2rem;
+  position: relative;
+  right: -50%;
+  color: darkgoldenrod;
+
+}
+.nav-li{
+ 
+  padding: 2px 10px;
+  border-radius: 3px;
+  /* -webkit-box-shadow: 0px 0px 2px 0.5px rgb(230, 230, 230);
+  -moz-box-shadow: 0px 0px 2px 0.5px rgb(230, 230, 230);
+  box-shadow: 0px 0px 2px 0.5px rgb(230, 230, 230); */
+}
+
+
+/*nav image*/
+
+#nav-image{
+  width: 50%;
+  border: 1px solid red;
+  display: inline-block;
+}
+/*dropdown*/
+.drop-down{
+  display: inline-block;
+  list-style: none;
+  width: 10vw;
+  height: 14vw;
+ position: relative;
+ padding-left: 0.5em;
+ padding-top: 0.6em;
+ line-height: 2.4em;
+ background: rgb(224, 220, 220);
+ border-radius: 5px;
+ 
+}
+.nav-li:hover{
+  cursor: pointer;
+  border: 0.2px solid rgb(211, 212, 205); 
+  background: rgb(224, 220, 220);
+  color: black;
+
+}
+.nav-li:hover .drop-down{
+  display: block;
+}
+
+.drop-content{
+ position: relative;
+ padding-left: 0.5em;
+ right:0.5em;
+ width: 128px;
+}
+.drop-content:hover{
+ 
+ background-color: rgb(117, 85, 85);
+}
+
+
+#plays{
+  width: 45%;
+  display: flex;
+  position: absolute;
+  left: 54.5%;
+  top: 11%;
+  justify-content: space-between;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: honeydew;
+}
+
+.first-half{
+    /* border: 1px solid black; */
+    height: 65vh;
+    width: 100vw;
+    color: honeydew;   
+}
+.g-name{
+    height: 10vh;
+    width: 100vw;
+    color: honeydew; 
+}
+.g-name::before{
+    content: "";
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: grey;
+    z-index: -3;
+    filter: brightness(0.1);
+}
+#music-icon{
+    position: absolute;
+    top: 5vw;
+    width: 20%;
+    z-index: -2;
+    opacity: 0.25;
+}
+.first-half::before{
+    content: "";
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: grey;
+    z-index: -3;
+    filter: brightness(0.1);
+}
+.top{
+    width: 100%;
+    height: 12%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.bop{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.nav-ul{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    /* border: 1px solid blue; */
+}
+.navli{
+    font-weight:600;
+    cursor: pointer;
+    
+}
+.navli:hover,a:hover{
+    color:#cda5e0;
+}
+
+#li1 a{
+    /* border-bottom: 2px solid #C78DE4;
+    border-radius: 2px; */
+    color:#cda5e0;
+    
+}
+/* #li1:hover{
+    border-bottom:2px solid honeydew;
+} */
+
+/*second section of first-half*/
+
+.second{
+    width: 100vw;
+    height: 88%;
+    /* border: 1px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section hr{
+    display:block;
+    width: 40%;
+    color: rgb(243, 234, 234);
+    height: 2px;
+    margin: 1% 0;
+}
+section h4{
+    font-style: italic;
+}
+section h1{
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    color: #C78DE4;
+}
+h4 span{
+    color: #C78DE4;
+}
