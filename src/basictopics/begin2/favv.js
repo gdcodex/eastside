@@ -1,5 +1,5 @@
 import React from 'react';
-import guitar from '../images/guitar.svg'
+import guitar from '../../images/guitar.svg'
 /*import swirl from "./randomFunc";*/
 
 
